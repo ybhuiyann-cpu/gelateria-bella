@@ -232,17 +232,20 @@ a {
 }
 
 /* ---------- Testimonials (Dark Section) ---------- */
-.testimonials {
+.testimonials-section {
     background: #2D1B13;
     /* Deep brown from screenshot */
     color: var(--white);
     padding: 100px 0;
 }
 
-.testimonials .section-title {
-    color: var(--white);
-    font-size: 3.5rem;
-    margin-bottom: 50px;
+.testimonials-section .section-title,
+.section-title.light {
+    color: var(--white) !important;
+}
+
+.section-tag.light {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .section-tag {
