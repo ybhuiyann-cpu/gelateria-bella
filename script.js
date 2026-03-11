@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const orderSection = document.getElementById('bestall');
         closeCartModal();
         orderSection.scrollIntoView({ behavior: 'smooth' });
-        showToast('Fyll i formuläret för att slutföraa beställningen!');
+        showToast('Fyll i formuläret för att slutföra beställningen!');
     });
 
     // Toast notification
