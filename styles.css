@@ -231,6 +231,99 @@ a {
     transform: translateY(0);
 }
 
+/* ---------- Testimonials (Dark Section) ---------- */
+.testimonials {
+    background: #2D1B13;
+    /* Deep brown from screenshot */
+    color: var(--white);
+    padding: 100px 0;
+}
+
+.testimonials .section-title {
+    color: var(--white);
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.section-tag {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.75rem;
+    color: var(--terracotta);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.05);
+    /* Glassy dark card */
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: var(--transition);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.testimonial-stars {
+    color: #D4A373;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.testimonial-text {
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.author-avatar {
+    width: 48px;
+    height: 48px;
+    background: var(--terracotta);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.testimonial-author strong {
+    display: block;
+    font-size: 1rem;
+    font-family: var(--font-heading);
+    margin-bottom: 2px;
+}
+
+.testimonial-author span {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.left-align {
+    text-align: left !important;
+}
+
 /* ---------- About Section ---------- */
 .about-grid {
     display: grid;
@@ -414,10 +507,10 @@ a {
 }
 
 .order-form-wrapper {
-    background: white;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    background: #FFF9F4;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-lg);
 }
 
 .order-form-wrapper h3 {
