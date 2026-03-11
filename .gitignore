@@ -1,0 +1,24 @@
+# Firebase
+.firebase/
+.firebaserc
+firebase.json
+404.html
+
+# IDE / System
+.DS_Store
+.gemini/
+node_modules/
+dist/
+build/
+.env
+
+# Mobile Simulator and artifacts
+brain/
+walkthrough.md
+task.md
+implementation_plan.md
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.gif
